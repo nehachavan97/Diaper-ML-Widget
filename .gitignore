@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local development environment
+.venv/
+venv/
+
+# macOS / editor files
+.DS_Store
+.vscode/settings.json
